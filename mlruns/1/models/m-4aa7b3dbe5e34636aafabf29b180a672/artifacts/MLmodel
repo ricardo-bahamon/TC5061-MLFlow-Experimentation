@@ -1,0 +1,42 @@
+artifact_path: /Users/ricardobahamon/Documents/Maestria/Trimestre_4/Operaciones_AI/Semana_4/TC5061_MLFlow_Experimentation/mlruns/1/models/m-4aa7b3dbe5e34636aafabf29b180a672/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.16.1
+model_id: m-4aa7b3dbe5e34636aafabf29b180a672
+model_size_bytes: 30786
+model_uuid: m-4aa7b3dbe5e34636aafabf29b180a672
+prompts: null
+run_id: a9ddae1c9f824e7e8343dcc5cea74d23
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "fixed_acidity", "required": true}, {"type":
+    "double", "name": "volatile_acidity", "required": true}, {"type": "double", "name":
+    "citric_acid", "required": true}, {"type": "double", "name": "residual_sugar",
+    "required": true}, {"type": "double", "name": "chlorides", "required": true},
+    {"type": "double", "name": "free_sulfur_dioxide", "required": true}, {"type":
+    "double", "name": "total_sulfur_dioxide", "required": true}, {"type": "double",
+    "name": "density", "required": true}, {"type": "double", "name": "ph", "required":
+    true}, {"type": "double", "name": "sulphates", "required": true}, {"type": "double",
+    "name": "alcohol", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-11 23:33:50.528643'

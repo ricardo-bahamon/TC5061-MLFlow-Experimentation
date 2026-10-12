@@ -1,0 +1,9 @@
+{
+    "accuracy": 0.5661764705882353,
+    "f1_score_macro": 0.20705619412515963,
+    "f1_score_weighted": 0.5112794399368943,
+    "precision_macro": 0.18896551724137933,
+    "recall_macro": 0.22911966913739393,
+    "cv_accuracy_mean": 0.565818289434744,
+    "cv_accuracy_std": 0.024348653851162493
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tc5061-mlflow-experimentation"
+version = "0.1.0"
+authors = [
+  { name="Jesus Ricardo Bahamon Quimbaya", email="A01840023@tec.mx" },
+]
+description = "Pipeline de experimentación instrumentado con MLFlow para Wine Quality (TC5061 MLOps)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mlflow>=3.16.0",
+    "scikit-learn>=1.7.0",
+    "pandas>=2.2.0",
+    "numpy>=2.0.0",
+    "matplotlib>=3.10.0",
+    "seaborn>=0.13.0",
+]

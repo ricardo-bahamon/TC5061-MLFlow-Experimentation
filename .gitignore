@@ -1,0 +1,32 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache y bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# MLflow runs locales temporales (conservar metadata y DB según se requiera)
+.mlflow/
+
+# Archivos de sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Distribución y build
+dist/
+build/
+*.egg-info/
+
+# Archivos de pruebas temporales
+test_*.py
+inspect_*.py
+capture_*.py
+generate_final_*.py

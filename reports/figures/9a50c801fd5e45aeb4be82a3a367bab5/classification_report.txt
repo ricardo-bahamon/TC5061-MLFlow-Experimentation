@@ -1,0 +1,24 @@
+=== REPORTE DE CLASIFICACIÓN DETALLADO ===
+
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         2
+           4       0.00      0.00      0.00        11
+           5       0.62      0.73      0.67       116
+           6       0.53      0.60      0.56       107
+           7       0.56      0.27      0.37        33
+           8       0.00      0.00      0.00         3
+
+    accuracy                           0.58       272
+   macro avg       0.29      0.27      0.27       272
+weighted avg       0.54      0.58      0.55       272
+
+
+=== MÉTRICAS RESUMEN ===
+accuracy: 0.5809
+f1_score_macro: 0.2676
+f1_score_weighted: 0.5541
+precision_macro: 0.2868
+recall_macro: 0.2673
+cv_accuracy_mean: 0.5943
+cv_accuracy_std: 0.0230
